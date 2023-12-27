@@ -1,0 +1,48 @@
+body {
+	margin: 0;
+	padding: 0;
+	overflow: hidden; 
+}
+.upper-section {
+	height: 50vh;
+	background: radial-gradient(circle at 18.7% 37.8%, rgb(250, 250, 250) 0%, rgb(225, 234, 238) 90%);
+	position: relative;
+}
+h2{
+	margin-left: 10px;
+	margin-top: 0;
+}
+h4 {
+	margin-left: 10px;
+	color: blue;
+}
+.lower-section {
+	height: 50vh;
+	background: linear-gradient(89deg, rgb(21, 74, 189) 0.1%, rgb(26, 138, 211) 51.5%, rgb(72, 177, 234) 100.2%);
+	position: relative; 
+}
+.grid-container {
+	display: grid; 
+	grid-template-columns: repeat(2, 1fr);
+	gap: 20px;
+	position: absolute;
+	top: 50%; 
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 80%;
+}
+
+.grid-item {
+	background-color: white;
+	/*border: 1px solid black;*/
+	padding: 20px;
+	/*box-sizing: border-box;*/
+	text-align: center;
+	font-size: 10px;
+
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+}
+.grid-item h2 {
+	text-decoration: underline;
+	text-decoration-style: double;
+}

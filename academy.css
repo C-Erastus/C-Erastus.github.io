@@ -1,0 +1,108 @@
+body{
+	margin: 0;
+}
+nav{
+	padding: 10px 20px;
+	text-align: center;
+	/*background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;*/
+	background-color: #121212;
+}
+nav ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+nav li {
+	display: inline-block;
+	margin-right: 20px;
+}
+nav a{
+	text-decoration: none; 
+	color: white;*
+	font-size: 16px;
+	position: relative;
+
+
+}
+.upper-section {
+	height: 60vh;
+	position: relative;
+	background: radial-gradient(circle at 6.4% 9.8%, rgb(88, 242, 174) 0%, rgb(0, 130, 240) 97.9%);
+}
+.content {
+	position: absolute;
+	top: 25%;
+	left: 10%;
+}
+.content h2 {
+  background-image: repeating-linear-gradient(to right, #a2682a 0%, #be8c3c 8%, #be8c3c 18%, #d3b15f 27%, #faf0a0 35%, #ffffc2 40%, #faf0a0 50%, #d3b15f 58%, #be8c3c 67%, #b17b32 77%, #bb8332 83%, #d4a245 88%, #e1b453 93%, #a4692a 100%);
+  background-size: 150%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 75px;
+  font-weight: 200;
+  font-family: "Yantramanav";
+  filter: drop-shadow(0 0 1px rgba(255, 200, 0, .3));
+  animation: MoveBackgroundPosition 6s ease-in-out infinite;
+
+  margin-bottom: 20px;
+}
+@keyframes MoveBackgroundPosition { 
+  0% {
+      background-position: 0% 50%
+  }
+  
+  50% {
+    background-position: 100% 50%
+  }
+  
+  100% {
+    background-position: 0% 50%
+  }
+}
+.content p {
+	margin-top: 0px;
+	color: white;
+	font-style: italic;
+}
+.image-container{
+	position: absolute;
+	top: 32.5%;
+	margin-left: 0.1px;
+	background-image: url('academy_logo.png');
+	width: 20vh;
+	height: 5vh;
+	background-size: contain; 
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.books-container{
+	position: absolute;
+	top: 20%;
+	left: 50%;
+
+	width: 50vh;
+	height: 50vh;
+
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+.lower-section{
+	height: 40vh;
+	background: linear-gradient(to top, #dfe9f3 0%, white 100%);
+}
+.grid-container {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	padding: 20px;
+	gap: 20px;
+}
+.grid-item {
+	padding: 20px;
+	font-size: 10px;
+	text-align: center;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+	border-radius: 10px;
+}
