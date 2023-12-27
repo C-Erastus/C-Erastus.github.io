@@ -12,7 +12,7 @@ body{
 	gap: 20px;
 }
 .grid-item {
-	/*background-color: white;*/
+	background-color: white;
 	padding: 20px;
 	font-size: 10px;
 	text-align: center;
