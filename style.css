@@ -33,6 +33,7 @@ body{
 	width: 25%; 
 	height: 100vh;
 	float: left;
+	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
 	
 	margin: 0 auto; 
 
@@ -63,7 +64,8 @@ body{
 	color: #000;
 	text-align: center;
 	margin-bottom: 0;
-	color: #D4AF37;
+	/*color: #D4AF37;*/
+	color: gold;
 }
 .left P{
 	text-align: center;
@@ -81,7 +83,7 @@ nav{
 }
 nav ul li {
 	list-style: none;
-	margin-top: 25px;
+	margin-top: 24px;
 }
 nav ul li a{
 	color: #000; 
@@ -97,8 +99,8 @@ nav ul li a:hover{
 	width: 75%; 
 	height: 100vh;
 	float: left;
-	
-	background-size: contain;
+	background-image: url('white_background1.jpg');
+	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 
@@ -115,13 +117,13 @@ nav ul li a:hover{
 	width: 50%; 
 	height 50%;
 	margin-top: 48px;
-	margin-left: 48%;
+	margin-left: 50%;
 
 
 }
 .main-container img{
 	width: 100%;
-	height: 100vh;
+	height: 93vh;
 }
 
 .content{
