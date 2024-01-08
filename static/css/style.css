@@ -100,7 +100,7 @@ nav ul li a:hover{
 	width: 75%; 
 	height: 100vh;
 	float: left;
-	background-image: url('white_background1.jpg');
+	background-image: url('../img/white_background1.jpg');
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
