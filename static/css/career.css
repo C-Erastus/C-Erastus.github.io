@@ -2,7 +2,7 @@ body{
 	margin: 0%;
 	
 	/*background-color: rgba(167, 206, 219, 0.5);*/
-	background-image: url('career-image.jpg');
+	background-image: url('../img/career-image.jpg');
 	background-size: contain;
 	background-position: cover;
 	/*background-repeat: no-repeat;*/
