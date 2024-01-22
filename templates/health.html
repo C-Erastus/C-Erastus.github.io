@@ -1,13 +1,152 @@
+{% extends "header_template.html" %}
+{% block content %}
 <!DOCTYPE html>
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>C.Erastus/Health</title>
+		 <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/health.css') }}">
 		<!-- Custom css file -->
 	</head>
 	<body>
-		<h2>COMING SOON!!</h2>
-		<p>It's imperative that we don't die too early. Preferably never but that's just a part of being human. Or is it?<p>
+	<div class="upper">
+		<div class="upper-content">
+			<h1>LONGEVITY 101</h1>
+			<h3>It's imperative that we don't die too early. Preferably never but that's just a part of being human. Or is it?</h3>
+		</div>
+	</div>
+		<!--- main content goes here -->
+	<div class="card-container">
+		<div class="card-daily-routine">
+			<img src="../static/img/daily_routine.jpg" alt="Avatar" style="width: 100%">
+			<div class="container">
+				<h4><b>Daily Routine</b></h4>
+				<p>Fast 18 - 20 hrs/day</p>
+				<p>Cold Showers 2x/day</p>
+				<p>Mediate</p>
+				<p>Exercise</p>
+			</div>
+		</div>
+
+		<div class="card-exercise">
+			<img src="../static/img/exercise.jpg" alt="exercise" style="width: 100%">
+			<div class="exercise-container">
+				<h4><b>Exercise</b></h4>
+				<p>Weigt Training: 2 - 3x/week</p>
+				<p>Calisthenics: 2 - 3x/week</p>
+				<p>Boxing</p>
+				<p>Sprint/Running</p>
+			</div>
+		</div>
+		
+		<div class="card-beverages">
+			<img src="../static/img/beverages.jpg" alt="beverages" style="width: 100%">
+			<div class="beverages-container">
+				<h4><b>Beverages</b></h4>
+				<p>1 gallon of water daily with lime & lemon</p>
+				<p>Green Match tea</p>
+				<p>Jasmine Green Tea</p>
+				<p>Coffee</p>
+			</div>
+		</div>
+
+		<div class="card-resveratrols">
+			<img src="../static/img/resveratrols.jpg" alt="resveratrols" style="width: 100%">
+			<div class="resveratrol-container">
+				<h4><b>Resveratrols</b></h4>
+				<p>Peanuts</p>
+				<p>Red Grapes</p>
+				<p>Blueberries</p>
+				<p>Raspberries</p>
+				<p>Mulberries</p>
+				<p>Supplement</p>
+			</div>
+		</div>
+
+		<div class="card-snacks">
+			<img src="../static/img/snacks.jpg" alt="snacks" style="width: 100%">
+			<div class="snacks-container">
+				<h4><b>Snacks</b></h4>
+				<p>Walnuts</p>
+				<p>Almonds</p>
+				<p>Cashews</p>
+				<p>Brazil nuts</p>
+			</div>
+		</div>
+
+		<div class="card-meal-1 stretch">
+			<img src="../static/img/meal-1.jpg" alt="meal-1" style="width: 100%">
+			<div class="meal-1-container ">
+				<h4><b>Meal 1: Super veggies Protein</b></h4>
+				<p>Cauliflower</p>
+				<p>Broccoli</p>
+				<p>Spinach</p>
+				<p>Kale</p>
+				<p>Mushrooms</p>
+				<p>Garlic</p>
+				<p>Ginger</p>
+				<p>Black Lentils</p>
+				<p>Cumin</p>
+				<p>Hemp seeds</p>
+				<p>Extra virgin olive oil</p>
+				<p>Quiano</p>
+				<p>Green peas</p>
+				<p>Cinnamon</p>
+				<p>Dried bell peppers</p>
+				<p>Onions</p>
+				<p>Parsley</p>
+			</div>
+		</div>
+		<div class="card-meal-2">
+			<img src="../static/img/meal-2.jpg" alt="meal-2" style="width: 100%">
+			<div class="meal-2-container">
+				<h4><b>Meal 2: Fever leaf soup (Liberia)</b></h4>
+				<p>Onions</p>
+				<p>Garlic</p>
+				<p>Ginger</p>
+				<p>Basil</p>
+				<p>Olive oil</p>
+				<p>Crushed Chili Peppers</p>
+				<p>Tofu</p>
+				<p>King Oyster Mushroom</p>
+				<p>Quiano - Base</p>
+			</div>
+		</div>
+
+		<div class="card-meal-3">
+			<img src="../static/img/meal-3.jpg" alt="meal-3" style="width: 100%">
+			<div class="meal-3-container">
+				<h4><b>Meal 3: Potatoes Greens Soup (Liberia)</b></h4>
+				<p>Onions</p>
+				<p>Garlic</p>
+				<p>Ginger</p>
+				<p>Potatoes Greens</p>
+				<p>Crushed Chili Peppers</p>
+				<p>Tofu</p>
+				<p>King Oyster Mushroooms</p>
+				<p>Quiano - Base </p>
+			</div>
+		</div>
+
+		<div class="card-meal-4">
+			<img src="../static/img/meal-4.jpg" alt="meal-4" style="width: 100%">
+			<div class="meal-4-container">
+				<h4><b>Meal 4: Super Greens</b></h4>
+				<p>Ginger</p>
+				<p>Garlic</p>
+				<p>Olive oil</p>
+				<p>Carrots</p>
+				<p>Brussels sprouts</p>
+				<p>Swiss chard</p>
+				<p>Beets</p>
+				<p>Asparagus</p>
+				<p>Red cabbage</p>
+				<p>Collard greens</p>
+				<p>Black lentils</p>
+				<p>Quiano</p>
+			</div>
+		</div>
+	</div>
 	</body>
 </html>
+{% endblock %}

@@ -1,0 +1,194 @@
+body{
+	margin: 0;
+	padding: 0;
+	overflow: scroll;
+}
+
+.upper {
+	height: 25vh;
+	background-color: #002929;
+	background-size: 100% 100%;
+	margin-top: 20px;
+}
+
+.upper-content {
+	/*margin-top: 20px;*/
+	padding: 20px;
+}
+
+h1 {
+	text-align: center;
+	color: grey;
+}
+h3 {
+	text-align: center;
+	color: grey;
+}
+h4 {
+	text-align: center;
+}
+
+.card-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between; /* Adjust as needed */
+	padding: 20px;
+	/*align-items: flex-start;*/
+	align-content: flex-start;
+	align-items: flex-start;
+	background: radial-gradient(circle at 18.7% 37.8%, rgb(250, 250, 250) 0%, rgb(225, 234, 238) 90%);
+}
+
+/*==================== Card Daily Routine ====================*/
+.card-daily-routine {
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transition: 0.3s;
+	/*width: 30%;*/
+	width: calc(33.33% - 10px);
+	background-color: white;
+}
+
+.card-daily-routine:hover {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+	padding: 2px 16px;
+}
+
+/*=================== Card Exercise =========================== */
+.card-exercise {
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transition: 0.3s;
+	/*width: 30%;*/
+	width: calc(33.33% - 10px);
+	background-color: white;
+}
+
+.card-exercise:hover {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.exercise-container {
+	padding: 2px 16px;
+}
+
+/*=================== Card Beverages ================================*/
+.card-beverages {
+	box-shadow: 0  4px 8px 0 rgba(0,0,0,0.2);
+	transition: 0.3s;
+	/*width: 30%;*/
+	width: calc(33.33% - 10px);
+	background-color: white;
+}
+
+.card-beverages:hover {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.beverages-container {
+	padding: 2px 16px;
+}
+
+/*=============== Card Resveratrols ===================== */
+.card-resveratrols {
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transition: 0.3s;
+	margin-top: 20px;
+	/*width: 30%;*/
+	width: calc(33.33% - 10px);
+	background-color: white;
+}
+
+.card-resveratrols:hover {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.resveratrol-container {
+	padding: 2px 16px;
+}
+
+/*==================== Card Snacks ==================== */
+.card-snacks {
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transition: 0.3s;
+	margin-top: 20px;
+	/*width: 30%;*/
+	width: calc(33.33% - 10px);
+	background-color: white;
+}
+
+.card-snacks:hover {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.snacks-container {
+	padding: 2px 16px;
+}
+
+/* ================ Card Meal 1 ====================== */
+.card-meal-1 {
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transition: 0.03s;
+	margin-top: 20px;
+	/*width: 30%;*/
+	width: calc(33.33% - 10px);
+	background-color: white;
+}
+
+.card-meal-1:hover {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.meal-1-container {
+	padding: 2px 16px;
+}
+
+/* ============= Card Meal 2 ========================== */
+.card-meal-2 {
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transition: 0.03s;
+	width: calc(33.33% - 10px);
+	margin-top: -360px;
+	background-color: white;
+}
+
+.card-meal-2:hover {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.meal-2-container {
+	padding: 2px 16px;
+}
+
+/* ============ Card Meal 3 ========================== */
+.card-meal-3 {
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transition: 0.03s;
+	width: calc(33.33% - 10px);
+	margin-top: -430px;
+	background-color: white;
+}
+
+.card-meal-3:hover {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.meal-3-container {
+	padding: 2px 16px;
+}
+
+/*============== Card Meal 4 ======================= */
+.card-meal-4 {
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transition: 0.03s;
+	width: calc(33.33% - 10px);
+	margin-top: 20px;
+	background-color: white;
+}
+.card-meal-4:hover {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.meal-4-container {
+	padding: 2px 16px;
+}

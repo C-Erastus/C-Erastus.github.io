@@ -6,19 +6,6 @@ body{
 	overflow: hidden;
 }
 
-/* Responsive styles for screens with a width up to 600 pixels */
-@media (max-width: 600px){
-	body  {
-		font-size: 14px;
-	}
-}
-
-/* Responsive styles for screens with a width between 601 and 900 pixels*/
-@media (min-width: 601px) and (max-width: 900px){
-	body {
-		font-size: 12px;
-	}
-}	
 .page-1{
 	width: 100%; 
 	height: 100vh;
@@ -77,10 +64,12 @@ nav{
 	align-items: center;
 	text-align: center;
 	justify-content: space-between;
-	margin-top: 25px;
-	margin-bottom: 25px;
-	margin-right: 50px;
-	
+	margin-top: auto; /* was 25px */
+	margin-bottom: auto; /* was 25px */
+	margin-right: auto; /* was 50px */
+
+
+	margin: 0 auto;
 }
 nav ul li {
 	list-style: none;

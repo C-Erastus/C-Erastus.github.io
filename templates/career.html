@@ -1,3 +1,6 @@
+{% extends "header_template.html" %}
+
+{% block content %}
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -8,6 +11,11 @@
 		<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/career.css') }}">
 	</head>
 	<body>
+		<div class="upper">
+			<div class="upper-content">
+				<h1>MY RESUME </h1>
+			</div>
+		</div>
 		<div class="grid-container">
 			<div class="grid-item">
 				<h2>EDUCATION</h2>
@@ -30,6 +38,7 @@
 		<h2>EXPERIENCES</h2>
 		<div class="experience-container">
 			<div class="grid-item">
+				<img src="../static/img/anovai.jpg" alt="Anovai" style="width: 100%">
 				<h2>ANOVAI LAB</h2>
 				<h5>November 2023 - Present</h5>
 				<h5>Founder & CEO</h5>
@@ -38,6 +47,7 @@
 				<p>Current Project: Aulnerability Research / Reverser Engineering / Malware Analysis using AI/ML</p>
 			</div>
 			<div class="grid-item">
+				<img src="../static/img/bitflow.jpg" alt="BitFlow" style="width: 100%">
 				<h2>BitFlow</h2>
 				<h5>August 2022- August 2023</h5>
 				<h5>Software Engineer: Linux Kernel</h5>
@@ -47,6 +57,7 @@
 				<p>Ability to coordinate and prioritize multiple tasks</p>
 			</div>
 			<div class="grid-item">
+				<img src="../static/img/red-hat.png" alt="Red Hat" style="width: 100%">
 				<h2>RedHat</h2>
 				<h5>July 2021 - August 2022</h5>
 				<h5>Software Engineer: Linux Kernel</h5>
@@ -55,6 +66,7 @@
 				<p>Implemented line micro detection for s390x in kpatch</p>
 			</div>
 			<div class="grid-item">
+				<img src="../static/img/draper.png" alt="Draper" style="width: 100%">
 				<h2>Draper</h2>
 				<h5>January 2021 - June 2021</h5>
 				<h5>System Software Development & Test Co-op</h5>
@@ -63,6 +75,7 @@
 				<p>Developed unit test in C for Flight Software</p>
 			</div>
 			<div class="grid-item">
+				<img src="../static/img/umass.png" alt="UMass" style="width: 100%">
 				<h2>UMass Lowell</h2>
 				<h5>May 2018 - December 2020</h5>
 				<h5>Undergrad Cybersecurity Researcher</h5>
@@ -78,6 +91,7 @@
 
 			</div>
 			<div class="grid-item">
+				<img src="../static/img/national-guard.png" alt="National Gard" style="width: 100%">
 				<h2>Army National Guard</h2>
 				<h5>January 2016 - February 2022</h2>
 				<h5>Motor Transport Operator - 88M</h5>
@@ -88,3 +102,5 @@
 		</div>
 	</body>
 </html>
+
+{% endblock %}

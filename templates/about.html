@@ -1,3 +1,6 @@
+{% extends "header_template.html" %}
+
+{% block content %}
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -10,71 +13,64 @@
 
 	<body>
 		<div class="page-1">
-			<!-- create the split page -->
-			<div class="float-container">
-				<div class="left">
-					<div class="content">
-						<h1>Lets take a ride.</h1>
-						<h5>It's so good to see you! ;)</h5>
-						<p>My name is Chukpozohn Erastus Toe. Chukpozohn is the saying in Bassa for a log<br>which has fallen in water and as a result becomes puffy; ask my parents why.<br>Erastus is the Greek word for "Belove". And for Toe, well, just look at your foot.<br>I'm a Computer Science graduate. Things I like and things I hate...I don't feel like<br>tell you that. My dreams for the future...nevery really thought about it. As for my<br>hobbies... I have lots of hobbies.<br><br> Scroll down for more about me </p> 
-						<a href="index.html" class="button">Go Home</a>
-					</div>
-				</div>
-				<div class="right">
-					<div class="image-container">
-					</div>
-					<!--h2>Right container</h2-->
-				</div>
-			</div>
+			<h1>ABOUT ME</h1>
+			<h5>It's so good to see you! ;)</h5>
+			<p>My name is Erastus Aurelius. I'm a Computer Science graduate. I hate alot of things and I don't particularly like anything. Things I like and things I hate...I don't feel like telling you that. My dreams for the future...nevery really thought about it. As for my hobbies... I have lots of hobbies. <br>Scroll down for more about me </p> 
 		</div>
 		<!-- second set of contents -->
 		<div class="page-2">
-			<h2>The Activities</h2>
+			<h2>My Activities</h2>
 			<div class="grid-container">
   				<div class="grid-item">
-					<div class="activities-container">
-						<img src="../static/img/weightlifting.png" alt="weight image">
+					<img src="../static/img/lifting.jpg" alt="weight image" style="width: 100%">
+					<div class="container">
+						<h2>Weight Training</h2>
+						<p>I've been been picking things up and putting them down for 14 years now.<br>Come to think about it, I should probably get help.</p>
 					</div>
-					<h2>Weight Training</h2>
-					<p>I've been been picking things up and putting them down for 14 years now.<br>Come to think about it, I should probably get help.</p>
+					<p><a href="https://www.freepik.com/free-photo/weight-training-workout-exercise-fitness-concept_18928762.htm#query=weight%20lifitng&position=1&from_view=search&track=ais&uuid=8f95401d-c515-4d94-bfce-eb104b289b82">Image by rawpixel.com</a> on Freepik</p>
 				</div>
   				<div class="grid-item">
-					<div class="activities-container">
-						<img src="../static/img/strong.png" alt="calisthenics image">
+					<img src="../static/img/cali.jpg" alt="calisthenics image" style="width: 100%">
+					<div class="container">
+						<h2>Calisthenics</h2>
+						<p>I sometimes pick myself up when I'm tired of picking other things up.</p>
 					</div>
-					<h2>Calisthenics</h2>
-					<p>I sometimes pick myself up when I'm tired of picking other things up.</p>
+					<p><a href="https://www.freepik.com/free-photo/shirtless-muscular-bearded-male-doing-exercises-horizontal-bar-gym-club_26506384.htm?query=calisthenics#from_view=detail_alsolike">Image by fxquadro</a> on Freepik</p>
 				</div>
   				<div class="grid-item">
-					<div class="activities-container">
-						<img src="../static/img/sport.png" alt="boxing image">
+					<img src="../static/img/boxing.jpg" alt="boxing image" style="width: 100%">
+					<div class="container">
+						<h2>Boxing</h2>
+						<p>Sometimes I go primal. If that's what you called getting your head bashed in.</p>
 					</div>
-					<h2>Boxing</h2>
-					<p>Sometimes I go primal. If that's what you called getting your head bashed in.</p>
+					<p><p><a href="https://www.freepik.com/free-photo/two-professional-boxer-boxing-black-smoky_9480886.htm#query=boxing&position=2&from_view=search&track=sph&uuid=76a4be4e-c149-4b13-9142-8ea230813126">Image by master1305</a> on Freepik</p></p>
 				</div>
   				<div class="grid-item">
-					<div class="activities-container">
-						<img src="../static/img/motorbike.png" alt="motorcycle image">
+					<img src="../static/img/motorcycle.jpg" alt="motorcycle image" style="width: 100%">
+					<div class="container">
+						<h2>Motorcyle</h2>
+						<p>I got my motorcycle before I told my mom. You can probably imagine why.<br>And yes she was right. I got in an accident and broke my ankle eventually.</p>
 					</div>
-					<h2>Motorcyle</h2>
-					<p>I got my motorcycle before I told my mom. You can probably imagine why.<br>And yes she was right. I got in an accident and broke my ankle eventually.</p>
+					<p><a href="https://www.freepik.com/free-ai-image/full-shot-man-riding-cool-motorcycle_72295079.htm#page=2&query=motorcycle&position=26&from_view=search&track=sph&uuid=7ab0d07c-86db-4f4f-89c5-1417f2e7cf3a">Image By freepik</a></p>
 				</div>
   				<div class="grid-item">
-					<div class="activities-container">
-						<img src="../static/img/snowboard.png" alt="snowboard image" >
+					<img src="../static/img/snowboard.jpg" alt="snowboard image" style="width: 100%">
+					<div class="container">
+						<h2>Snowboarding</h2>
+						<p>The closest thing to flying I've tried. You should definitely give it a try!<br>It's worth the concussion!</p>
 					</div>
-					<h2>Snowboarding</h2>
-					<p>The closest thing to flying I've tried. You should definitely give it a try!<br>It's worth the concussion!</p>
+					<p><a href="https://www.freepik.com/free-ai-image/men-snowboard-extreme-winter-sport-adventure-generated-by-ai_41417969.htm#fromView=search&term=snowboarding&track=ais_ai_generated&regularType=ai&page=1&position=1&uuid=fec16c67-54cc-4488-8b33-44fcf6078afd">Image By vecstock</a></p>
 				</div>
   				<div class="grid-item">
-					<div class="activities-container">
-						<img src="../static/img/speed.png" alt="running image">
+					<img src="../static/img/running.jpg" alt="running image" style="width: 100%">
+					<div class="container">
+						<h2>Running</h2>
+						<p>Sometimes I imagine I'm Forrest Gump, for 30 minutes that is<br>before I fall flat on my face out of exhaustion.</p>
 					</div>
-					<h2>Running</h2>
-					<p>Sometimes I imagine I'm Forrest Gump, for 30 minutes that is<br>before I fall flat on my face out of exhaustion.</p>
+					<p><a href="https://www.freepik.com/free-ai-image/muscular-men-jogging-outdoors-sports-clothing-generated-by-ai_41483684.htm#fromView=search&term=running&track=ais_ai_generated&regularType=ai&page=1&position=1&uuid=83504139-20f3-4453-a5f7-082c1a4fb502">Image By vecstock</a></p>
 				</div>
 			</div>
-			<h2>The Arts</h2>
+			<h2>My Artistic Side</h2>
 			<div class="art-container">
 				<div class="grid-item">
 					<div class="activities-container">
@@ -95,45 +91,55 @@
 					<h2>Guitar</h2>
 				</div>
 			</div>
-			<h2>The Academics</h2>
-			<div class="academics-container">
+			<h2>My Academic Interests</h2>
+			<div class="grid-container">
 				<div class="grid-item">
-					<div class="activities-container">
-						<img src="../static/img/computer-science.png" alt="computer science">
+					<img src="../static/img/computer.jpg" alt="computer" style="width: 100%">
+					<div class="container">
+						<h2>Computer Science</h2>
 					</div>
-					<h2>Computer Science</h2>
+					<p><a href="https://www.freepik.com/free-ai-image/circuit-cyberspace-closeup-with-neon-lights_39518202.htm#page=2&query=cpu&position=17&from_view=search&track=sph&uuid=0fb5520d-52fc-46cb-8df8-d39e33fc5a08">Image By svstudioart</a></p>
 				</div>
 				<div class="grid-item">
-					<div class="activities-container">
-						<img src="../static/img/math.png" alt="math">
+					<img src="../static/img/mathematics.jpg" alt="math" style="width: 100%">
+					<div class="container">
+						<h2>Math</h2>
 					</div>
-					<h2>Math</h2>
+					<p>Image by <a href="https://www.freepik.com/free-vector/scientific-formulas-chalkboard_7456461.htm#query=mathematics&position=15&from_view=search&track=sph&uuid=1fa7729c-db5b-4b96-be42-1b45ce0e2c65">Freepik</a></p>
+
 				</div>
 				<div class="grid-item">
-					<div class="activities-container">
-						<img src="../static/img/physics.png" alt="physics">
+					<img src="../static/img/phys.jpg" alt="physics" style="width: 100%">
+					<div class="container">
+						<h2>Physics</h2>
 					</div>
-					<h2>Physics</h2>
+					<p>Image by <a href="https://www.freepik.com/free-vector/hand-drawn-scientific-formulas-chalkboard_7408871.htm#query=physics&position=42&from_view=search&track=sph&uuid=7fb147b6-a18e-4f7d-8940-b2b4b9fa0b4c">Freepik</a></p>
 				</div>
 				<div class="grid-item">
-					<div class="activities-container">
-						<img src="../static/img/philosophy.png" alt="philosophy">
+					<img src="../static/img/philo.jpg" alt="philosophy" style="width: 100%">
+					<div class="container">
+						<h2>Philosopy</h2>
 					</div>
-					<h2>Philosopy</h2>
+					<p><a href="https://www.freepik.com/free-ai-image/ancient-greek-deity-philosopher-statue_94953843.htm#page=3&query=philosophy&position=16&from_view=search&track=sph&uuid=337fba18-8702-445d-8219-b3259df679c0">Image By freepik</a></p>
 				</div>
 				<div class="grid-item">
-					<div class="activities-container">
-						<img src="../static/img/psychology.png" alt="psycology">
+					<img src="../static/img/brain.jpg" alt="psycology" style="width: 100%">
+					<div class="container">
+						<h2>Psychology</h2>
 					</div>
-					<h2>Psychology</h2>
+					<p><a href="https://www.freepik.com/free-ai-image/human-brain-detailed-structure_81446432.htm#fromView=search&term=psychology&track=ais_ai_generated&regularType=ai&page=1&position=9&uuid=1324811e-34f0-4a00-9605-91570edc9bb6">Image By freepik</a></p>
 				</div>
 				<div class="grid-item">
-					<div class="activities-container">
-						<img src="../static/img/neuroscience.png" alt="neuroscience">
+					<img src="../static/img/neuron.jpg" alt="neuroscience" style="width: 100%">
+					<div class="container">
+						<h2>Neuroscience</h2>
 					</div>
-					<h2>Neuroscience</h2>
+					 <p><a href="https://www.freepik.com/free-ai-image/close-up-brain-with-blue-orange-lights_42298458.htm#fromView=search&term=neurons+free&track=ais_ai_generated&regularType=ai&page=1&position=13&uuid=8f363c86-3676-471c-bff3-08a93fbcbafd">Image By djvstock</a></p>
 				</div>
 			</div>
 
 		</div>
 	</body>
+</html>
+
+{% endblock %}
